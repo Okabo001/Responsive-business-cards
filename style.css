@@ -1,0 +1,114 @@
+body{
+    background-color:#1d1f20; /* background color for demo only */
+  }
+  body, html{ /* for demo only */
+    height:100px;
+    width:100%;
+    padding:0;
+    margin:0;
+  }
+  #container{ /* center for demo only */
+    max-width:300px;
+    width:100%;
+    overflow:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right:-50%;
+    transform:translate(-50%, -50%);
+    border: 10px solid #4285f4;
+  }
+  .bc-wrapper{ 
+    position:relative;
+  }
+  .bc-size{
+    width:300px;
+    height:600px;
+  }
+  .bc-style{
+    background-image:none;
+    text-align:center;
+    background-color:#efefef;
+    color:#303030;
+    overflow:hidden; /* avoid elements to spill outside of the VC edge */ 
+  }
+  .bc-content{
+    position:absolute;
+    background-color:transparent;
+  }
+  .text, button{
+      font-family:'Ubuntu', sans-serif;
+  }
+  .header-txt{
+    position:absolute;
+    width:280px;
+    left:10px;
+    top:26px;
+    color:#4285f4;
+    font-size:70px;
+    font-weight:600;
+    line-height:.9em;
+    letter-spacing:-0.010em;
+    text-transform:uppercase;
+  }
+  .name-txt{
+    position:absolute;
+    width:280px;
+    left:10px;
+    top:422px;
+    color:#4285f4;
+    font-size:2.5em;
+    font-weight:600;
+    letter-spacing:-0.010em;
+    text-transform:uppercase;
+  }
+  .qualification-txt{
+    position:absolute;
+    width:280px;
+    left:10px;
+    top:465px;
+    color:#303030;
+    font-size:2em;
+    font-weight:400;
+    letter-spacing:-0.050em;
+  }
+  .black-txt{
+    color:#303030;
+  }
+  .image-wrapper{
+    position:absolute;
+    left:10px;
+    top:172px;
+    width:280px;
+    height:240px; /* To clip bottom of the image */
+    overflow:hidden;
+  }
+  img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:280px;
+    height:280px;
+    border-radius:50%;
+  }
+  button{
+    position:absolute;
+    left:30px;
+    top:520px;
+    width:240px;
+    height:50px;
+    display:block;
+    padding:10px 10px 10px 10px;
+    background-color:#4285F4;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    outline:0;
+  }
+  .button-txt{
+    font-size:1.5em;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#efefef;
+    letter-spacing: 0.05em;
+  }
